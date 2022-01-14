@@ -33,6 +33,10 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
+#bio-container #welcome-text {
+    font-weight: bold;
+}
+
 #about-container {
     flex: 100% 100% 80%;
     min-height: 100vh;
@@ -61,4 +65,54 @@
 
 #bio-container p{
     margin-bottom: 20px;
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+#social-container li {
+    flex: 1 1 0;
+    max-width: 60px;
+}
+
+#social-container li a {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+#email-container {
+    display: flex;
+    justify-content: center;
+}
+
+#email-container ion-icon,
+#email-container a {
+    flex: 100% 100% 0%;
+}
+
+#email-container a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width: 225px;
+    padding-left: 10px;
+}
+
+#email-container ion-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    max-width: 20px;
+}
+
+/* about-container */
+
+
+
+#skill-box i {
+    font-size: 50px;
 }

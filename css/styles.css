@@ -29,7 +29,7 @@
     min-height: 100vh;
     background-color: var(--bio-bg-color);
     text-align: center;
-    padding: 30px 12px;
+    padding: 5.5rem 12px;
     border-right: 5px solid var(--bio-border-color);
 }
 
@@ -42,12 +42,7 @@
     min-height: 100vh;
     height: 100%;
     background-color: var(--about-bg-color);
-    padding: 50px;
-}
-
-#about-container img {
-    width: 50px;
-    height: 50px;
+    padding: 5rem;
 }
 
 #bio-container img {
@@ -59,11 +54,11 @@
     /*--------------------------*/
 }
 
-#bio-container h2{
+#bio-container h2 {
     margin-bottom: 25px;
 }
 
-#bio-container p{
+#bio-container p {
     margin-bottom: 20px;
 }
 
@@ -111,8 +106,86 @@
 
 /* about-container */
 
+#name {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
 
+#title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 
-#skill-box i {
-    font-size: 50px;
+.description {
+    max-width: 75%;
+    margin-bottom: 10px;
+}
+
+.btn-projects {
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 25px 0;
+    padding: 12px 10px;
+    width: 150px;
+    text-align: right;
+    display: flex;
+}
+
+.btn-projects ion-icon,
+
+.btn-projects span {
+    flex: 100% 100% 0;
+}
+
+.btn-projects ion-icon {
+    font-size: 20px;
+    max-width: 20px;
+}
+
+.btn-projects:hover {
+    background-color: transparent;
+}
+
+.skills-section-title {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.skill-box {
+    flex: 100% 100% 33%;
+    max-width: 33%;
+    margin-bottom: 35px;
+}
+
+.skill-box i {
+    font-size: 77px;
+    margin-right: 10px;
+}
+
+.skill-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid var(--main-color);
+}
+
+#about-container img {
+    width: 70px;
+    height: 70px;
 }
